@@ -180,7 +180,7 @@ function constructURL (searchTerm, beginDate, endDate, sourceName, page) {
 
 
 console.log('******************************** calling P_injest ********************************' );
-ingestData('Enron', '20000001', '20150306', 'New York Times');
+ingestData('Enron', '19970001', '20150506', 'New York Times');
 
 
 module.exports = ingestData;
