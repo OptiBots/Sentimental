@@ -1,4 +1,3 @@
-// wait, don't we need to require the db?
 var bluebird = require('bluebird');
 var request = bluebird.promisify(require('request'));
 var RateLimiter = require('limiter').RateLimiter;
